@@ -178,6 +178,106 @@ h3 {
     width: 300px;
 }
 
+
+/*boton-modal*/
+.boton-modal{
+    padding: 40px;
+    background-color: #000000;
+}
+
+.boton-modal label{
+    padding: 10px 15px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 300ms ease;
+}
+
+.boton-modal label:hover{
+    color: black;
+    background-color: bisque;
+    padding: 10px 30px;
+    border: 3px solid white;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#btn-modal{
+    display: none;
+}
+
+.container-modal{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal:checked ~ .container-modal{
+display: flex;
+}
+
+.content-modal{
+    margin-right: 70px;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #353535;
+    border-radius: 4px;
+    h5{
+        margin-bottom: 15px;
+        font-size: 25px;
+        font-family: cursive;
+    }
+}
+
+.content-modal p{
+        padding: 15px 45px;
+        border-top: 1px solid rgb(101, 101, 101);
+        border-bottom: 1px solid rgb(101, 101, 101);
+        display: flex;
+        text-align: justify;
+}
+
+.content-modal .btn-cerrar{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.content-modal .btn-cerrar label{
+    padding: 7px 10px;
+    background-color: #6f6f6f;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-modal .btn-cerrar label:hover{
+    background-color: #3b3b3b;
+}
+
+.cerrar-modal{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+}
+
 .boton-promociones {
     display: inline-block;
     text-decoration: none;
@@ -186,14 +286,21 @@ h3 {
     border: 3px solid white;
     border-radius: 30px;
     margin-top: 15px;
-    transition: all 0.4s;
+    transition: all 300ms ease;
 }
 
 .boton-promociones:hover {
-    background-color: bisque;
     color: black;
+    background-color: bisque;
+    padding: 10px 30px;
+    border: 3px solid white;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+    font-size: 20px;
     font-weight: bolder;
 }
+
 
 /*CONTACTO*/
 
