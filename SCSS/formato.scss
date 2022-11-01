@@ -2,7 +2,7 @@
 $color-parrafo: white;
 $fuente-parrafo: monospace;
 $fuente-titulo: tahoma;
-$fuente-banner:courier;
+$fuente-banner: courier;
 
 /*CSS*/
 
@@ -76,7 +76,7 @@ h1 {
     font-size: 100px;
     color: white;
     line-height: 2.3;
-    background-image: url(https://www.visitflanders.com/es/binaries/Amuse%20Geuze%2009-Website%20banner-300%20DPI_crop1400x560_tcm24-169747.jpg);
+
 }
 
 /*PRINCIPAL/*
@@ -120,6 +120,9 @@ h1 {
     }
 }
 
+h3 {
+    color: #ffffff;
+}
 
 .boton-none {
     text-decoration: none;
@@ -149,7 +152,7 @@ h1 {
     background-color: rgb(0, 0, 0);
     padding: 50px 50px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -197,10 +200,10 @@ h1 {
 /*CUERPO*/
 
 #formulario {
-    background-image: url(http://d2r9epyceweg5n.cloudfront.net/stores/001/179/202/products/packoklahoma11-c3f856f422aa8443d915884610590496-640-0.jpg);
+    background-image: url(http://d2r9epyceweg5n.cloudfront.net/stores/001/179/202/themes/common/logo-1352811289-1588458325-558a5a1752b2f8d22b6431729265e1ff1588458325.png?0);
     background-size: 100vw 100vh;
     background-attachment: fixed;
-    margin: 0;
+    margin: 0px;
 }
 
 form {
@@ -212,6 +215,7 @@ form {
     margin-top: 0px;
     border-radius: 7px;
     font-family: monospace;
+    
 }
 
 h2 {
@@ -250,8 +254,9 @@ textarea {
     min-width: 290px;
 }
 
-h3 {
+#formulario h3 {
     color: antiquewhite;
+    background: rgba(0, 0, 0, 0.4);
     text-align: center;
     margin: 15px;
     margin-top: 20px;
@@ -276,7 +281,7 @@ body {
 }
 
 .heading {
-    background-color: rgb(9, 4, 35);
+    background-image: url(../fotos/hamburbirra.jpg);
     color: #ffffff;
     margin-bottom: 30px;
     padding: 50px 0 30px 0;
@@ -445,11 +450,12 @@ h2 {
     display: flex;
     justify-content: space-between;
     text-align: center;
+
     div {
-    flex: 1;
-    margin: 20px 0px;
-    border-right: 2px solid white;
-}
+        flex: 1;
+        margin: 20px 0px;
+        border-right: 2px solid white;
+    }
 }
 
 #foto-twitter {
@@ -458,11 +464,12 @@ h2 {
 
 .contenido-redes div {
     color: black;
+
     h6 {
-    font-size: 15px;
-    font-weight: 100;
-    margin: 10px 0px;
-}
+        font-size: 15px;
+        font-weight: 100;
+        margin: 10px 0px;
+    }
 }
 
 
@@ -511,9 +518,9 @@ h2 {
 
     /*PRINCIPAL*/
 
-.contenido-banner h3{
-    font-size: 25px;
-}
+    .contenido-banner h3 {
+        font-size: 25px;
+    }
 
     /*FOTOS*/
     #fotos {
@@ -546,9 +553,9 @@ h2 {
 
     .contenido-redes {
         flex-direction: column;
+
         div {
-        border: none;
-    }
+            border: none;
+        }
     }
 }
-
