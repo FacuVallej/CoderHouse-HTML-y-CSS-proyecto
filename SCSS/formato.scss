@@ -180,12 +180,12 @@ h3 {
 
 
 /*boton-modal*/
-.boton-modal{
+.boton-modal {
     padding: 40px;
     background-color: #000000;
 }
 
-.boton-modal label{
+.boton-modal label {
     padding: 10px 15px;
     color: white;
     border: 3px solid white;
@@ -195,7 +195,7 @@ h3 {
     transition: all 300ms ease;
 }
 
-.boton-modal label:hover{
+.boton-modal label:hover {
     color: black;
     background-color: bisque;
     padding: 10px 30px;
@@ -207,15 +207,16 @@ h3 {
     font-weight: bolder;
 }
 
-#btn-modal{
+#btn-modal {
     display: none;
 }
 
-.container-modal{
+.container-modal {
     width: 100%;
     height: 100vh;
     position: fixed;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     background-color: rgba(144, 148, 150, 0.8);
     display: none;
     justify-content: center;
@@ -223,33 +224,34 @@ h3 {
     z-index: 100;
 }
 
-#btn-modal:checked ~ .container-modal{
-display: flex;
+#btn-modal:checked~.container-modal {
+    display: flex;
 }
 
-.content-modal{
+.content-modal {
     margin-right: 70px;
     width: 100%;
     max-width: 400px;
     padding: 10px;
     background-color: #353535;
     border-radius: 4px;
-    h5{
+
+    h5 {
         margin-bottom: 15px;
         font-size: 25px;
         font-family: cursive;
     }
 }
 
-.content-modal p{
-        padding: 15px 45px;
-        border-top: 1px solid rgb(101, 101, 101);
-        border-bottom: 1px solid rgb(101, 101, 101);
-        display: flex;
-        text-align: justify;
+.content-modal p {
+    padding: 15px 45px;
+    border-top: 1px solid rgb(101, 101, 101);
+    border-bottom: 1px solid rgb(101, 101, 101);
+    display: flex;
+    text-align: justify;
 }
 
-.content-modal .btn-cerrar{
+.content-modal .btn-cerrar {
     width: 100%;
     margin-top: 15px;
     display: flex;
@@ -257,7 +259,7 @@ display: flex;
     font-size: 18px;
 }
 
-.content-modal .btn-cerrar label{
+.content-modal .btn-cerrar label {
     padding: 7px 10px;
     background-color: #6f6f6f;
     color: #ffffff;
@@ -266,15 +268,16 @@ display: flex;
     transition: all 300ms ease;
 }
 
-.content-modal .btn-cerrar label:hover{
+.content-modal .btn-cerrar label:hover {
     background-color: #3b3b3b;
 }
 
-.cerrar-modal{
+.cerrar-modal {
     width: 100%;
     height: 100vh;
     position: absolute;
-    top:0; left: 0;
+    top: 0;
+    left: 0;
     z-index: -1;
 }
 
@@ -301,12 +304,12 @@ display: flex;
     font-weight: bolder;
 }
 
-#titulo-prom{
+#titulo-prom {
     margin-left: 12px;
     font-weight: 100;
 }
 
-#texto-prom{
+#texto-prom {
     margin-left: 12px;
 }
 
@@ -330,7 +333,7 @@ form {
     margin-top: 0px;
     border-radius: 7px;
     font-family: monospace;
-    
+
 }
 
 h2 {
@@ -509,7 +512,7 @@ body {
 
 /*local caballito*/
 
-#titulo-locales{
+#titulo-locales {
     background-image: url(https://thumbs.dreamstime.com/b/fondo-de-banner-movimiento-deslizamiento-color-negro-oscuro-muy-bonito-efecto-gris-diapositiva-brillo-cabecera-209800925.jpg);
 }
 
@@ -681,3 +684,4 @@ h2 {
         }
     }
 }
+
