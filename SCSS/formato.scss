@@ -301,6 +301,14 @@ display: flex;
     font-weight: bolder;
 }
 
+#titulo-prom{
+    margin-left: 12px;
+    font-weight: 100;
+}
+
+#texto-prom{
+    margin-left: 12px;
+}
 
 /*CONTACTO*/
 
@@ -476,6 +484,7 @@ body {
 
 #cuerpo {
     h1 {
+        background-image: url(https://thumbs.dreamstime.com/b/sana-planta-basada-comida-r%C3%A1pida-doble-borde-vista-superior-sobre-un-fondo-de-pancarta-madera-oscura-espacio-copia-escena-mesa-211965313.jpg);
         font-size: 40px;
         font-weight: 400;
         padding: 10px 0px;
@@ -500,6 +509,10 @@ body {
 
 /*local caballito*/
 
+#titulo-locales{
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-de-banner-movimiento-deslizamiento-color-negro-oscuro-muy-bonito-efecto-gris-diapositiva-brillo-cabecera-209800925.jpg);
+}
+
 #imagen20 {
     display: flex;
     text-align: center;
@@ -518,6 +531,8 @@ h2 {
     font-size: 30px;
     color: rgb(255, 255, 255);
 }
+
+
 
 #mapacaballito {
     display: flex;
